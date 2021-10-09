@@ -1,5 +1,5 @@
 const User = require('../models/User')
-const File = require("../models/fileSchema");
+const File = require("../models/FileSchema");
 const { verifyToken, verifyTokenAndAuthorization } = require('./verifyJWT')
 
 const router = require('express').Router()
